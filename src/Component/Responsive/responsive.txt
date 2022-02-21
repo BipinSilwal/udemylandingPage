@@ -1,1 +1,8 @@
 I am soon going to make responvie page too....
+
+
+
+Learning how to merge branches and master in github..
+
+
+merging file in branches is fun to work with...
