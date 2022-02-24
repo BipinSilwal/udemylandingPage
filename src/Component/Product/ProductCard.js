@@ -42,19 +42,11 @@ console.log(data);
             <>
               <Grid item>
                   
-                <Card sx={{ maxWidth: 235 ,height :'50vh'}} elevation={0}>
-                <Box height="25vh">
-                  <CardMedia
-                    component="img"
-                    height="100%"
-                    width="50%"
-                    image={image}
-                    alt="green iguana"
-                    backgroundSize="cover"
-                 
-                  />
+                <Card sx={{ maxWidth: 235 , height:'60vh' }} elevation={1}>
+                <Box sx ={{height:'20vh', width: '80%', margin:'0 auto',  display:'flex', justifyContent:'center'}}>
+                  <img src={image} alt="green iguana" height="100%" width="70%"/>
                   </Box>
-                  <CardContent>
+                  <CardContent sx={{height:'20vh'}}>
                     <Typography gutterBottom variant="body1" component="div" sx={{fontWeight:'bold'}}>
                       {title}
                     </Typography>
@@ -66,7 +58,7 @@ console.log(data);
                       {`$${price}`}
                     </Typography>
                   </CardContent>
-                  <CardActions>
+                  <CardActions sx={{height:'20vh'}}>
                     <Button size="small" sx={{backgroundColor:'yellow'}}>Best seller</Button>
                   </CardActions>
                 </Card>
